@@ -48,3 +48,10 @@
     width: 1563px;
     height: 4203px;
 }
+
+@media only screen and(min-width:1280px) {
+    .categoryBox  img {
+        width: 200px;
+
+    }
+}
