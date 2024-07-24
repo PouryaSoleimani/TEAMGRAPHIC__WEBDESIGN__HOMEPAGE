@@ -50,12 +50,17 @@
 }
 
 @media only screen and(min-width:1280px) {
-    .categoryBox  img {
+    .categoryBox img {
         width: 200px;
 
     }
 }
 
-#BIG_BACKGGROUND_SECTION { 
-    
+#BIG_BACKGROUND_SECTION {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://teamgraphic.ir/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/vWDbC1j2.png');
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
