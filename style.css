@@ -57,7 +57,7 @@
 }
 
 #BIG_BACKGROUND_SECTION { min-width: 100%; height: 800vh; background-image: url('/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/fxR6cSi0.png'); background-size: contain; background-repeat: no-repeat; margin: 0; padding: 0; display: flex; justify-content: center; align-items: start; padding: 25% 15%;}
-#STEPS__IMAGE { width: 100%; height: 100%; margin: 10% auto; z-index: 100;}
+#STEPS__IMAGE { width: 100%; margin: 10% auto; z-index: 100;}
 #STEPS__IMAGE__VERTICAL { width: 100%; margin: 10% auto;}
 .card { --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%); width: 140px; height: 140px; padding: 5px; border-radius: 2rem; overflow: visible; background: #f7ba2b; background: var(--background); position: relative; z-index: 1;}
 .card::after { position: absolute; content: ""; top: 30px; left: 0; right: 0; z-index: -1; height: 100%; width: 100%; -webkit-transform: scale(0.8); -ms-transform: scale(0.8); transform: scale(0.8); -webkit-filter: blur(25px); filter: blur(25px); background: #f7ba2b; background: var(--background); -webkit-transition: opacity .5s; transition: opacity .5s;}
