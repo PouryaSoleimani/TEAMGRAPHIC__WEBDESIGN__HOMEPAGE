@@ -56,10 +56,10 @@
     }
 }
 
-#BIG_BACKGROUND_SECTION { min-width: 100%; background-image: url('/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/fxR6cSi0.png'); background-size: contain; background-repeat: no-repeat; margin: 0; padding: 0; display: flex; justify-content: center; align-items: start; padding: 25% 15%;}
+#BIG_BACKGROUND_SECTION {  min-width: 100%;  background-image: url('/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/fxR6cSi0.png');  background-size: contain;  background-repeat: no-repeat;  margin: 0;  padding: 0;  display: flex;  justify-content: center;  align-items: start;  padding: 25% 15%;}
 .card { --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%); width: 140px; height: 140px; padding: 5px; border-radius: 2rem; overflow: visible; background: #f7ba2b; background: var(--background); position: relative; z-index: 1;}
-.card::after {position: absolute;content: "";top: 30px;left: 0;right: 0;z-index: -1;height: 100%;width: 100%;-webkit-transform: scale(0.8);-ms-transform: scale(0.8);transform: scale(0.8);-webkit-filter: blur(25px);filter: blur(25px);background: #f7ba2b;background: var(--background);-webkit-transition: opacity .5s;transition: opacity .5s;}
-.card-info { --color: #181818; background: var(--color); color: var(--color); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; flex-direction: column; width: 100%; height: 100%; overflow: visible; border-radius: 1.8rem;}
+.card::after { position: absolute; content: ""; top: 30px; left: 0; right: 0; z-index: -1; height: 100%; width: 100%; -webkit-transform: scale(0.8); -ms-transform: scale(0.8); transform: scale(0.8); -webkit-filter: blur(25px); filter: blur(25px); background: #f7ba2b; background: var(--background); -webkit-transition: opacity .5s; transition: opacity .5s;}
+.card-info {--color: #181818;background: var(--color);color: var(--color);display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;flex-direction: column;width: 100%;height: 100%;overflow: visible;border-radius: 1.8rem;}
 /*Hover*/
-.card:hover::after { opacity: 0;}
+.card:hover::after {opacity: 0;}
 .card:hover .card-info { color: #fafafa; -webkit-transition: +color 1s; transition: color 1s;}
