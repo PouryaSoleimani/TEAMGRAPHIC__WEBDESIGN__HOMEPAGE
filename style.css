@@ -56,7 +56,7 @@
     }
 }
 
-#BIG_BACKGROUND_SECTION { min-width: 100%; height: 800vh; background-image: url('/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/fxR6cSi0.png'); background-size: contain; background-repeat: no-repeat; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; padding: 25% 15%;}
+#BIG_BACKGROUND_SECTION { min-width: 100%; height: 730vh; background-image: url('/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/fxR6cSi0.png'); background-size: contain; background-repeat: no-repeat; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; padding: 25% 15%;}
 #STEPS__IMAGE { margin: 10% auto;}
 #STEPS__IMAGE__VERTICAL {margin: 10% auto;}
 .card { --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%); width: 140px; height: 140px; padding: 5px; border-radius: 2rem; overflow: visible; background: #f7ba2b; background: var(--background); position: relative; z-index: 1;}
