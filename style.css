@@ -62,10 +62,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
     padding: 25% 15%;
 }
 
