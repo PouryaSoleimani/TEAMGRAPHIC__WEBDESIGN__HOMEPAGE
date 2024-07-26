@@ -131,7 +131,7 @@
 
 /*^^^ ASTRONAUT ^^^  ***********************************************************************************************************************/
 /* HOLD THE ASTRONAUT */
-.astronaut {position: relative;width: 100%;height: 25em;display: flex;flex-direction: column;align-items: center;justify-content: center;background-color: #171717;color: white;font-family: Montserrat;font-weight: bold;padding: 1em 2em 1em 1em;border-radius: 20px;overflow: hidden;z-index: 1;row-gap: 1em;}
+.astronaut { position: relative; width: 100%; height: 25em; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #171717; color: white; font-family: Montserrat; font-weight: bold; padding: 1em 2em 1em 1em; border-radius: 1px; overflow: hidden; z-index: 1; row-gap: 1em; -webkit-border-radius: 1px; -moz-border-radius: 1px; -ms-border-radius: 1px; -o-border-radius: 1px; }
 .astronaut img {width: 12em;margin-right: 1em;animation: move 10s ease-in-out infinite;z-index: 5;}
 .astronaut__image:hover { cursor: -webkit-grab; cursor: grab;}
 .astronaut__icons svg { width: 20px; height: 20px;}
