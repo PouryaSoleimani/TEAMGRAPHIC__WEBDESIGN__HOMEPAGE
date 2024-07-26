@@ -133,7 +133,7 @@
 /* HOLD THE ASTRONAUT */
 .astronaut {
     position: relative;
-    width: 19em;
+    width: 100vw;
     height: 25em;
     display: flex;
     flex-direction: column;
