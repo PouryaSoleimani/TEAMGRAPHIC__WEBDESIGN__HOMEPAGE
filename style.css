@@ -132,7 +132,7 @@
 /*!! ASTRONAUT  ********************************************************************************************************/
 /* HOLD THE ASTRONAUT */
 
-.card {
+.astronaut {
     position: relative;
     width: 19em;
     height: 25em;
@@ -151,7 +151,7 @@
     row-gap: 1em;
 }
 
-.card img {
+.astronaut img {
     width: 12em;
     margin-right: 1em;
     animation: move 10s ease-in-out infinite;
@@ -168,7 +168,7 @@
     height: 20px;
 }
 
-.card::before {
+.astronaut::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -181,13 +181,13 @@
     z-index: -1;
 }
 
-.card:hover::before {
+.astronaut:hover::before {
     width: 150%;
     height: 100%;
     margin-left: -4.25em;
 }
 
-.card::after {
+.astronaut::after {
     content: "";
     position: absolute;
     inset: 2px;
@@ -202,7 +202,7 @@
     transition: 0.4s ease-in-out;
 }
 
-.card:hover .heading {
+.astronaut:hover .heading {
     letter-spacing: 0.025em;
 }
 
@@ -261,9 +261,9 @@
     animation-delay: 0.8s;
 }
 
-.card:hover .heading::before,
-.card:hover .icons::before,
-.card:hover .icons::after {
+.astronaut:hover .heading::before,
+.astronaut:hover .icons::before,
+.astronaut:hover .icons::after {
     filter: blur(3px);
 }
 
@@ -332,7 +332,7 @@
     z-index: -1;
 }
 
-.card:hover .heading::after {
+.astronaut:hover .heading::after {
     box-shadow: 0px 0px 200px rgba(193, 119, 241, 1),
         0px 0px 200px rgba(135, 42, 211, 1), inset #9b40fc 0px 0px 40px -12px;
 }
@@ -450,9 +450,9 @@
     animation-delay: 5s;
 }
 
-.card:hover .instagram::before,
-.card:hover .x::before,
-.card:hover .discord::before {
+.astronaut:hover .instagram::before,
+.astronaut:hover .x::before,
+.astronaut:hover .discord::before {
     filter: blur(3px);
 }
 
