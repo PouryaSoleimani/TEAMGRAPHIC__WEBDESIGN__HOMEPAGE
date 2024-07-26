@@ -173,6 +173,7 @@
 .astronaut__image:active~.astronaut__icons .instagram::before,
 .astronaut__image:active~.astronaut__icons .x::before,
 .astronaut__image:active~.astronaut__icons .discord::before { animation: none; opacity: 0;}
+.astronautIcon{width: 10px !important; height: 10px !important; }
 @keyframes shootingStar { 0% {transform: translateX(0) translateY(0);opacity: 1; } 50% { transform: translateX(-55em) translateY(0); opacity: 1; } 70% { transform: translateX(-70em) translateY(0); opacity: 0;} 100% {  transform: translateX(0) translateY(0);  opacity: 0; }}
 @keyframes move { 0% { transform: translateX(0em) translateY(0em);}25% { transform: translateY(-1em) translateX(-1em); rotate: -10deg;}50% {transform: translateY(1em) translateX(-1em);}75% { transform: translateY(-1.25em) translateX(1em); rotate: 10deg;}100% {transform: translateX(0em) translateY(0em);}}
 @keyframes glowing-stars {0% { opacity: 0;}50% { opacity: 1;}100% { opacity: 0;}}
