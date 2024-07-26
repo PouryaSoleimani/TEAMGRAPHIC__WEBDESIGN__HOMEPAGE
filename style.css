@@ -158,7 +158,7 @@
     z-index: 5;
 }
 
-.image:hover {
+.astronaut__image:hover {
     cursor: -webkit-grab;
     cursor: grab;
 }
@@ -267,12 +267,12 @@
     filter: blur(3px);
 }
 
-.image:active {
+.astronaut__image:active {
     cursor: -webkit-grabbing;
     cursor: grabbing;
 }
 
-.image:active+.heading::before {
+.astronaut__image:active+.heading::before {
     box-shadow: 240px 20px #9b40fc, 240px 25px #9b40fc, 240px 30px #9b40fc,
         240px 35px #9b40fc, 240px 40px #9b40fc, 242px 45px #9b40fc,
         246px 48px #9b40fc, 251px 49px #9b40fc, 256px 48px #9b40fc,
@@ -286,7 +286,7 @@
     transform: translateX(9em) translateY(1em);
 }
 
-.image:active~.icons::before {
+.astronaut__image:active~.icons::before {
     box-shadow: 262px 35px #9b40fc, 262px 30px #9b40fc, 262px 25px #9b40fc,
         262px 20px #9b40fc, 275px 20px #9b40fc, 275px 24px #9b40fc,
         275px 28px #9b40fc, 275px 32px #9b40fc, 275px 36px #9b40fc,
@@ -300,7 +300,7 @@
     transform: translateX(9em) translateY(1em);
 }
 
-.image:active~.icons::after {
+.astronaut__image:active~.icons::after {
     box-shadow: 238px 60px #9b40fc, 242px 60px #9b40fc, 246px 60px #9b40fc,
         250px 60px #9b40fc, 254px 60px #9b40fc, 258px 60px #9b40fc,
         262px 60px #9b40fc, 266px 60px #9b40fc, 270px 60px #9b40fc,
@@ -456,9 +456,9 @@
     filter: blur(3px);
 }
 
-.image:active~.icons .instagram::before,
-.image:active~.icons .x::before,
-.image:active~.icons .discord::before {
+.astronaut__image:active~.icons .instagram::before,
+.astronaut__image:active~.icons .x::before,
+.astronaut__image:active~.icons .discord::before {
     animation: none;
     opacity: 0;
 }
