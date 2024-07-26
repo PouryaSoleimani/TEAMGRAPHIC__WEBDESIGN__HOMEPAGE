@@ -59,7 +59,7 @@
 #BIG_BACKGROUND_SECTION {
     min-width: 100%;
     background-image: url('/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/fxR6cSi0.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
     padding: 25% 15%;
