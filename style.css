@@ -163,7 +163,7 @@
     cursor: grab;
 }
 
-.icons svg {
+.astronaut__icons svg {
     width: 20px;
     height: 20px;
 }
@@ -224,7 +224,7 @@
     animation-delay: 0s;
 }
 
-.icons::before {
+.astronaut__icons::before {
     content: "";
     position: absolute;
     top: 0;
@@ -242,7 +242,7 @@
     animation-delay: 0.4s;
 }
 
-.icons::after {
+.astronaut__icons::after {
     content: "";
     position: absolute;
     top: 0;
@@ -262,8 +262,8 @@
 }
 
 .astronaut:hover .astronaut__heading::before,
-.astronaut:hover .icons::before,
-.astronaut:hover .icons::after {
+.astronaut:hover .astronaut__icons::before,
+.astronaut:hover .astronaut__icons::after {
     filter: blur(3px);
 }
 
@@ -286,7 +286,7 @@
     transform: translateX(9em) translateY(1em);
 }
 
-.astronaut__image:active~.icons::before {
+.astronaut__image:active~.astronaut__icons::before {
     box-shadow: 262px 35px #9b40fc, 262px 30px #9b40fc, 262px 25px #9b40fc,
         262px 20px #9b40fc, 275px 20px #9b40fc, 275px 24px #9b40fc,
         275px 28px #9b40fc, 275px 32px #9b40fc, 275px 36px #9b40fc,
@@ -300,7 +300,7 @@
     transform: translateX(9em) translateY(1em);
 }
 
-.astronaut__image:active~.icons::after {
+.astronaut__image:active~.astronaut__icons::after {
     box-shadow: 238px 60px #9b40fc, 242px 60px #9b40fc, 246px 60px #9b40fc,
         250px 60px #9b40fc, 254px 60px #9b40fc, 258px 60px #9b40fc,
         262px 60px #9b40fc, 266px 60px #9b40fc, 270px 60px #9b40fc,
@@ -337,7 +337,7 @@
         0px 0px 200px rgba(135, 42, 211, 1), inset #9b40fc 0px 0px 40px -12px;
 }
 
-.icons {
+.astronaut__icons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -456,9 +456,9 @@
     filter: blur(3px);
 }
 
-.astronaut__image:active~.icons .instagram::before,
-.astronaut__image:active~.icons .x::before,
-.astronaut__image:active~.icons .discord::before {
+.astronaut__image:active~.astronaut__icons .instagram::before,
+.astronaut__image:active~.astronaut__icons .x::before,
+.astronaut__image:active~.astronaut__icons .discord::before {
     animation: none;
     opacity: 0;
 }
