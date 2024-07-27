@@ -184,5 +184,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: ;
 }
+
+
+@media (min-width: 1536px) {.SHAPE {width: 182px; height: 200px;}}
+@media (max-width: 1536px) {.SHAPE {width: 73px; height: 80px;}}
+@media (max-width: 640px) {.SHAPE {width: 35px; height: 39px;}}
