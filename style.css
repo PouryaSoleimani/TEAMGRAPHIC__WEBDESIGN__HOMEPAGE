@@ -190,3 +190,7 @@
 @media (min-width: 1536px) {.SHAPE {width: 182px; height: 200px;}}
 @media (max-width: 1536px) {.SHAPE {width: 73px; height: 80px;}}
 @media (max-width: 640px) {.SHAPE {width: 33px; height: 37px;}}
+
+.categoryBox .plyr--full-ui{ border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; width: 100%;}
+
+@media (min-width: 1280px) {.categoryBox .plyr--full-ui{width: 75%;}}
