@@ -1,44 +1,9 @@
 /* WEB DESIGN 2 */
-.shadow__btn {
-  padding: 10px 60px;
-  border: none;
-  font-size: 20px;
-  color: #fafafa;
-  border-radius: 30px;
-  font-weight: 900;
-  text-transform: uppercase;
-  transition: 0.5s;
-  transition-property: box-shadow;
-  cursor: pointer;
-}
-
-.shadow__btn {
-  background: #fabb14;
-  box-shadow: #fabb14;
-}
-
-.shadow__btn:hover {
-  box-shadow: 0 0 5px #fabb14, 0 0 25px #fabb14, 0 0 50px #fabb14,
-    0 0 100px #fabb14;
-}
-
-.PLANBOX {
-  position: relative;
-}
-
-.PLANBOX:hover::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 50px;
-  padding: 2px;
-  background: linear-gradient(180deg, #fabd14, black, transparent);
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-}
-
+.shadow__btn { padding: 10px 60px; border: none; font-size: 20px; color: #fafafa; border-radius: 30px; font-weight: 900; text-transform: uppercase; transition: 0.5s; transition-property: box-shadow; cursor: pointer;}
+.shadow__btn { background: #fabb14; box-shadow: #fabb14;}
+.shadow__btn:hover {box-shadow: 0 0 5px #fabb14, 0 0 25px #fabb14, 0 0 50px #fabb14,  0 0 100px #fabb14;}
+.PLANBOX {position: relative;}
+.PLANBOX:hover::before { content: ""; position: absolute; inset: 0; border-radius: 50px; padding: 2px; background: linear-gradient(180deg, #fabd14, black, transparent); mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask-composite: exclude;}
 .fancybox-content {
   transform: translate(178.5px, -2488.05px) scale(1, 1);
   opacity: 1;
