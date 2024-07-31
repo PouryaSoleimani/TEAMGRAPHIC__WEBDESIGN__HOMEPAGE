@@ -41,11 +41,8 @@
   height: 4203px;
 }
 #BIG_BACKGROUND_SECTION {
-  margin: 0;
   padding: 25% 5%;
-  background-position: center;
   position: relative;
-  background-size: cover;
 }
 #BIG_BACKGROUND_SECTION {
   width: 100%;
