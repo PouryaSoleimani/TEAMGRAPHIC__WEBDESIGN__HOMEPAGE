@@ -151,7 +151,7 @@ ade-down::before {
   -webkit-transition: +color 1s;
   transition: color 1s;
 }
-/*^^^ ASTRONAUT ^^^  ***********************************************************************************************************************/
+/*!! ASTRONAUT ^^^  ***********************************************************************************************************************/
 /* HOLD THE ASTRONAUT */
 .astronaut {
   position: relative;
@@ -549,7 +549,7 @@ ade-down::before {
     opacity: 0;
   }
 }
-
+/* ! SHAPE */
 .SHAPE {
   background: url("/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/kigsHPzB/FUs82ecb.svg");
   background-size: contain;
