@@ -592,3 +592,5 @@ ade-down::before {
     width: 75%;
   }
 }
+
+.LAYER2 { animation: spin 40s infinite; -webkit-animation: spin 40s infinite; }
