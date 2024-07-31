@@ -40,16 +40,7 @@
   width: 1563px;
   height: 4203px;
 }
-#BIG_BACKGROUND_SECTION {
-  min-width: 100%;
-  background-image: url("https://teamgraphic.ir/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/TCJZwB8c.png");
-  background-repeat: repeat-y;
-  margin: 0;
-  padding: 25% 5%;
-  background-position: center;
-  position: relative;
-  background-size: cover;
-}
+#BIG_BACKGROUND_SECTION {min-width: 100%;background-image: url("/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/XafbtKJH.png");background-repeat: repeat-y;margin: 0;padding: 25% 5%;background-position: center;position: relative;background-size: cover;}
 .fade-all::before {
   content: "";
   width: 100%;
