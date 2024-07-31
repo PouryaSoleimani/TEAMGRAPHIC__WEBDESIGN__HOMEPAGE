@@ -593,4 +593,4 @@ ade-down::before {
   }
 }
 
-.LAYER2 { animation: spin 40s infinite; -webkit-animation: spin 40s infinite; }
+.LAYER2 { animation: spin 120s infinite; -webkit-animation: spin 120s infinite; }
