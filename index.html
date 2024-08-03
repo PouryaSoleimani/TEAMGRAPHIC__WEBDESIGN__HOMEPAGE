@@ -1,3 +1,7 @@
+<!-- ~ LOADER -->
+<div class="w-screen h-screen flex items-center justify-center">
+    <img src="https://team-graphic.com/Infinity-TG.svg" alt="TEAM GRAPHIC LOADER">
+</div>
 <!-- ^ MAIN  PAGE CONTAINER -->
 <section id="FdivL_PAGE_CONTAINER" class="overflow-hidden w-full"><!--^ HEADER ===============================================================================================================================================================================-->
     <div class="relative w-screen h-screen relative top-0 left-0 bg-cover lg:scale-y-[100%] overflow-hidden bg-[url('/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/GXDye1gz/pZMXbufc.jpg')] z-0"><img id="HEADER__BACKGROUND__LAYER__2 z-10" class="w-full h-fit absolute top-[56%] min-[525px]:top-[38%] left-0 LAYER2 sm:-bottom-1 lg:top-[25%] 2xl:top-[11%] 2xl:scale-90 left-[3%] lg:left-[1%]" src="../../../upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/GXDye1gz/5Dkog6fj.png" /> <img id="HEADER__BACKGROUND__LAYER__3 z-30" class="w-fit h-fit 2xl:w-full drop-shadow-2xl shadow-black absolute bottom-[10vh] md:bottom-[-1vh] left-[7px] animate__animated animate__fadeInUp animate__slow animate__delay-2s translate-x-[50%]" src="../../../upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/GXDye1gz/4BZ5HQdL.png" />
@@ -412,7 +416,7 @@
     </div>
     <!-- ^ COMMERCIAL__SECTION =================================================================================================================================================================-->
     <div class="flex items-center justify-center mt-10 mb-4 flex-col"><img src="../../../upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/kigsHPzB/JznaZpGQ.svg" alt="commercial" />
-         <!--& CRUE PICS -->
+        <!--& CRUE PICS -->
         <div class="container">
             <div class="flex flex-col items-center justify-center px-3 flex-wrap gap-y-1 2xl:gap-y-0 rows" data-aos="fade-up" data-aos-duration="1500">
                 <div id="1st_row" class="flex items-center justify-center gap-1 lg:gap-4 flex-wrap">
@@ -569,4 +573,15 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init()</script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("#FdivL_PAGE_CONTAINER").style.visibility = "hidden";
+        document.querySelector("#loader").style.visibility = "visible";
+    } else {
+        document.querySelector("#loader").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
+    </script>
 </p>
