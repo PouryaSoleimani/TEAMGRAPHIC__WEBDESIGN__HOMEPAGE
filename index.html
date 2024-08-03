@@ -577,13 +577,13 @@
             if (document.readyState !== "complete") {
                 document.querySelector("#FdivL_PAGE_CONTAINER").style.visibility = "hidden";
                 document.querySelector("#WEB_DESIGN_LOADER").style.visibility = "visible";
-                document.querySelector("#WEB_DESIGN_LOADER").classList.add= "w-screen h-screen";
+                document.querySelector("#WEB_DESIGN_LOADER").classList.add = "w-[100vw]" ,"h-[100vh]";
             } else {
                 document.querySelector("#WEB_DESIGN_LOADER").style.display = "none";
-                document.querySelector("#WEB_DESIGN_LOADER").classList.remove= "w-screen h-screen";
                 document.querySelector("#FdivL_PAGE_CONTAINER").style.visibility = "visible";
+                document.querySelector("#WEB_DESIGN_LOADER").classList.remove = "w-[100vw]" ,"h-[100vh]";
             }
         };
         </script>
-        <script>AOS.init()</script>
+    <script>AOS.init()</script>
 </p>
