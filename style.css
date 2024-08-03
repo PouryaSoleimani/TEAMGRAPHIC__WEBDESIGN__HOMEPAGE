@@ -639,7 +639,7 @@
   -webkit-animation: spin 120s infinite;
 }
 
-/* !!!! SHOOTING STAR */
+/* **** SHOOTING STAR */
 #SHOOTING__STARTS {
   position: absolute;
   top: 0;
@@ -764,4 +764,14 @@ q:nth-child(9) {
   left: initial;
   animation-delay: 2.75s;
   animation-duration: 2.75s;
+}
+
+/*~~~~~~ LOADER ~~~~~~~~ */
+#WEB_DESIGN_LOADER { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  scale: 125;
 }
