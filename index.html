@@ -577,11 +577,11 @@
             if (document.readyState !== "complete") {
                 document.querySelector("#FdivL_PAGE_CONTAINER").style.visibility = "hidden";
                 document.querySelector("#WEB_DESIGN_LOADER").style.visibility = "visible";
-                document.querySelector("#WEB_DESIGN_LOADER").style.width = "100vw";
             } else {
                 document.querySelector("#WEB_DESIGN_LOADER").style.display = "none";
-                document.querySelector("#FdivL_PAGE_CONTAINER").style.visibility = "visible";
                 document.querySelector("#WEB_DESIGN_LOADER").style.width = "0";
+                document.querySelector("#WEB_DESIGN_LOADER").style.height = "0";
+                document.querySelector("#FdivL_PAGE_CONTAINER").style.visibility = "visible";
             }
         };
         </script>
