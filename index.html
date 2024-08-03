@@ -575,12 +575,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         document.onreadystatechange = function() {
-            // LOADING
             if (document.readyState !== "complete") {
                 document.querySelector("#FdivL_PAGE_CONTAINER").style.visibility = "hidden";
-                document.querySelector("#WEB_DESIGN_LOADER").style.visibility = "visible";
-            } else {
-            // COMPLETED
+                document.querySelector("#WEB_DESIGN_LOADER").style.visibility = "visible";} 
+            else {
                 document.querySelector("#WEB_DESIGN_LOADER").style.display = "none";
                 document.querySelector("#WEB_DESIGN_LOADER").style.visibility = "hidden";
                 document.querySelector("#WEB_DESIGN_LOADER").classList.add = "absolute top-0 left-0 -z-10 h-0";
