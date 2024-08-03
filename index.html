@@ -574,14 +574,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         document.onreadystatechange = function() {
+            // LOADING
             if (document.readyState !== "complete") {
                 document.querySelector("#FdivL_PAGE_CONTAINER").style.visibility = "hidden";
                 document.querySelector("#WEB_DESIGN_LOADER").style.visibility = "visible";
             } else {
+            // COMPLETED
                 document.querySelector("#WEB_DESIGN_LOADER").style.visibility = "hidden";
-                document.querySelector("#WEB_DESIGN_LOADER").style.height = "0";
-                document.querySelector("#LOADER__IMAGE").style.width = "0";
-                document.querySelector("#LOADER__IMAGE").style.height = "0";
                 document.querySelector("#FdivL_PAGE_CONTAINER").style.visibility = "visible";
             }
         };
