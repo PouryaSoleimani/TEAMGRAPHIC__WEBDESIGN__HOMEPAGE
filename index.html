@@ -1,6 +1,6 @@
 <!-- ~ LOADER -->
 <div class="w-screen h-screen flex items-center justify-center">
-    <img src="https://team-graphic.com/Infinity-TG.svg" alt="TEAM GRAPHIC LOADER">
+    <img id="WEB_DESIGN_LOADER" src="https://team-graphic.com/Infinity-TG.svg" alt="TEAM GRAPHIC LOADER">
 </div>
 <!-- ^ MAIN  PAGE CONTAINER -->
 <section id="FdivL_PAGE_CONTAINER" class="overflow-hidden w-full"><!--^ HEADER ===============================================================================================================================================================================-->
@@ -577,10 +577,10 @@
         document.onreadystatechange = function() {
     if (document.readyState !== "complete") {
         document.querySelector("#FdivL_PAGE_CONTAINER").style.visibility = "hidden";
-        document.querySelector("#loader").style.visibility = "visible";
+        document.querySelector("#WEB_DESIGN_LOADER").style.visibility = "visible";
     } else {
-        document.querySelector("#loader").style.display = "none";
-        document.querySelector("body").style.visibility = "visible";
+        document.querySelector("#WEB_DESIGN_LOADER").style.display = "none";
+        document.querySelector("#FdivL_PAGE_CONTAINER").style.visibility = "visible";
     }
 };
     </script>
