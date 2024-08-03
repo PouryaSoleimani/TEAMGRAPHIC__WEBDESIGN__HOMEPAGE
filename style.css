@@ -767,7 +767,7 @@ q:nth-child(9) {
 }
 
 /*~~~~~~ LOADER ~~~~~~~~ */
-#WEB_DESIGN_LOADER { display: inline-flex; justify-content: center; align-items: center; width: 100vw; height: 100vh;}
+#WEB_DESIGN_LOADER { display: flex; justify-content: center; align-items: center; width: 100vw; height: 100vh;}
 
 #LOADER__IMAGE {width: 100%;height: 100%;}
 
