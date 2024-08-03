@@ -768,7 +768,7 @@ q:nth-child(9) {
 
 /*~~~~~~ LOADER ~~~~~~~~ */
 #WEB_DESIGN_LOADER {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
