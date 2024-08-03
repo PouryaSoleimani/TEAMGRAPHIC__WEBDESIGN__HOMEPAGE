@@ -577,8 +577,10 @@
             if (document.readyState !== "complete") {
                 document.querySelector("#FdivL_PAGE_CONTAINER").style.visibility = "hidden";
                 document.querySelector("#WEB_DESIGN_LOADER").style.visibility = "visible";
+                document.querySelector("#WEB_DESIGN_LOADER").classList.add= "w-screen h-screen";
             } else {
                 document.querySelector("#WEB_DESIGN_LOADER").style.display = "none";
+                document.querySelector("#WEB_DESIGN_LOADER").classList.remove= "w-screen h-screen";
                 document.querySelector("#FdivL_PAGE_CONTAINER").style.visibility = "visible";
             }
         };
