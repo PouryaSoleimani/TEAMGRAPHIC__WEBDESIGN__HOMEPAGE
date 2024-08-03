@@ -767,10 +767,15 @@ q:nth-child(9) {
 }
 
 /*~~~~~~ LOADER ~~~~~~~~ */
-#WEB_DESIGN_LOADER { 
+#WEB_DESIGN_LOADER {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 100vh;
+}
+
+#LOADER__IMAGE {
+  width: 200px;
+  height: 200px;
 }
