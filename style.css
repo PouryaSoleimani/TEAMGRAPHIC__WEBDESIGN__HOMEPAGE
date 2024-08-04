@@ -794,31 +794,11 @@ q:nth-child(9) {
   36.3636363636% { -webkit-transform: translate(26px, 0); transform: translate(26px, 0); }
   45.4545454545% { -webkit-transform: translate(26px, 26px); transform: translate(26px, 26px);}
   54.5454545455% { -webkit-transform: translate(26px, 26px); transform: translate(26px, 26px); }
-
-  63.6363636364% {
-    -webkit-transform: translate(26px, 26px);
-    transform: translate(26px, 26px);
-  }
-
-  72.7272727273% {
-    -webkit-transform: translate(26px, 0px);
-    transform: translate(26px, 0px);
-  }
-
-  81.8181818182% {
-    -webkit-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
-  }
-
-  90.9090909091% {
-    -webkit-transform: translate(-26px, 0px);
-    transform: translate(-26px, 0px);
-  }
-
-  100% {
-    -webkit-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
-  }
+  63.6363636364% { -webkit-transform: translate(26px, 26px); transform: translate(26px, 26px);}
+  72.7272727273% { -webkit-transform: translate(26px, 0px); transform: translate(26px, 0px);}
+  81.8181818182% { -webkit-transform: translate(0px, 0px); transform: translate(0px, 0px); }
+  90.9090909091% { -webkit-transform: translate(-26px, 0px); transform: translate(-26px, 0px); }
+  100% { -webkit-transform: translate(0px, 0px); transform: translate(0px, 0px); }
 }
 
 @keyframes moveBox-1 {
