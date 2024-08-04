@@ -1907,4 +1907,6 @@ q:nth-child(9) {
 .question-tab-tg-dark.question-tab-tg-active {
   color: black !important ;
 }
+
+
 .title-gradient { background: linear-gradient(to right, #fdb913, #ffd400); background-clip: text; color: transparent;}
