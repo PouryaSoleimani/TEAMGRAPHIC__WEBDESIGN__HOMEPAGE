@@ -1898,3 +1898,6 @@ q:nth-child(9) {
   animation: moveBox-9 4s infinite;
 }
 
+.question-tab-tg-dark{ color: white !important ;}
+.question-tab-tg-dark:hover{ color: black !important ;}
+.question-tab-tg-dark.question-tab-tg-active{ color: black !important ;}
