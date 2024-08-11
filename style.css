@@ -1,51 +1,10 @@
 /* WEB DESIGN 2 */
-.shadow__btn {
-  padding: 10px 60px;
-  border: none;
-  font-size: 20px;
-  color: #fafafa;
-  border-radius: 30px;
-  font-weight: 900;
-  text-transform: uppercase;
-  transition: 0.5s;
-  transition-property: box-shadow;
-  cursor: pointer;
-}
-
-.shadow__btn {
-  background: #fabb14;
-  box-shadow: #fabb14;
-}
-
-.shadow__btn:hover {
-  box-shadow: 0 0 5px #fabb14, 0 0 25px #fabb14, 0 0 50px #fabb14,
-    0 0 100px #fabb14;
-}
-
-.PLANBOX {
-  position: relative;
-}
-
-.PLANBOX:hover::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 50px;
-  padding: 2px;
-  background: linear-gradient(180deg, #fabd14, black, transparent);
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-}
-
-.fancybox-content {
-  transform: translate(178.5px, -2488.05px) scale(1, 1);
-  opacity: 1;
-  width: 1563px;
-  height: 4203px;
-}
-
+.shadow__btn { padding: 10px 60px; border: none; font-size: 20px; color: #fafafa; border-radius: 30px; font-weight: 900; text-transform: uppercase; transition: 0.5s; transition-property: box-shadow; cursor: pointer;}
+.shadow__btn { background: #fabb14; box-shadow: #fabb14;}
+.shadow__btn:hover { box-shadow: 0 0 5px #fabb14, 0 0 25px #fabb14, 0 0 50px #fabb14,  0 0 100px #fabb14;}
+.PLANBOX {position: relative;}
+.PLANBOX:hover::before { content: ""; position: absolute; inset: 0; border-radius: 50px; padding: 2px; background: linear-gradient(180deg, #fabd14, black, transparent); mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask-composite: exclude;}
+.fancybox-content { transform: translate(178.5px, -2488.05px) scale(1, 1); opacity: 1; width: 1563px; height: 4203px;}
 #BIG_BACKGROUND_SECTION,
 #FAQ__SECTION {
   width: 100%;
@@ -125,69 +84,12 @@
   right: 0;
 }
 
-.card {
-  --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
-  width: 140px;
-  height: 140px;
-  padding: 5px;
-  border-radius: 2rem;
-  overflow: visible;
-  background: #f7ba2b;
-  background: var(--background);
-  position: relative;
-  z-index: 1;
-}
-
-.card::after {
-  position: absolute;
-  content: "";
-  top: 30px;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  height: 100%;
-  width: 100%;
-  -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
-  -webkit-filter: blur(25px);
-  filter: blur(25px);
-  background: #f7ba2b;
-  background: var(--background);
-  -webkit-transition: opacity 0.5s;
-  transition: opacity 0.5s;
-}
-
-.card-info {
-  --color: #181818;
-  background: var(--color);
-  color: var(--color);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-  border-radius: 1.8rem;
-}
-
+.card { --background: linear-gradient(to bottom, #f7ba2b54 0%, #f7ba2b 100%); width: 140px; height: 140px; padding: 3px; border-radius: 2rem; overflow: visible; background: #f7ba2b68; background: var(--background); position: relative; z-index: 1;}
+.card::after { position: absolute; content: ""; top: 30px; left: 0; right: 0; z-index: -1; height: 100%; width: 100%; -webkit-transform: scale(0.8); -ms-transform: scale(0.8); transform: scale(0.8); -webkit-filter: blur(25px); filter: blur(25px); background: #f7ba2b; background: var(--background); -webkit-transition: opacity 0.5s; transition: opacity 0.5s;}
+.card-info { --color: #181818; background: var(--color); color: var(--color); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; flex-direction: column; width: 100%; height: 100%; overflow: visible; border-radius: 1.8rem;}
 /*Hover*/
-.card:hover::after {
-  opacity: 0;
-}
-
-.card:hover .card-info {
-  color: #fafafa;
-  -webkit-transition: +color 1s;
-  transition: color 1s;
-}
+.card:hover::after { opacity: 0;}
+.card:hover .card-info { color: #fafafa; -webkit-transition: +color 1s; transition: color 1s;}
 
 /*!! ASTRONAUT ^^^  ***********************************************************************************************************************/
 /* HOLD THE ASTRONAUT */
