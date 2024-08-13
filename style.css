@@ -1682,5 +1682,5 @@ q:nth-child(9) {
 .article-main-tg .seotextOptions { line-height: 2.5rem !important ; }
 h1.site__label{ margin-top: 9rem; z-index: -10;}
 .HEADER__BACKGROUND__LAYER__3{scale: 187% !important; position: absolute; bottom:117px !important;left: 0 !important;}
-@media (min-width:640px) {.HEADER__BACKGROUND__LAYER__3{scale: 100% !important;}}
-@media (min-width:1520px) {.HEADER__BACKGROUND__LAYER__3{scale: -6px !important;}}
+@media (min-width:640px) {.HEADER__BACKGROUND__LAYER__3{scale: 100% !important;position: absolute; bottom:79px !important;left: 0 !important;}}
+@media (min-width:768px) {.HEADER__BACKGROUND__LAYER__3{scale: 100% !important;position: absolute; bottom:-1px !important;left: 0 !important;}}
