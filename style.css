@@ -1684,3 +1684,6 @@ h1.site__label{ margin-top: 9rem; z-index: -10;}
 .HEADER__BACKGROUND__LAYER__3{scale: 187% !important; position: absolute; bottom:117px !important;left: 0 !important;}
 @media (min-width:640px) {.HEADER__BACKGROUND__LAYER__3{scale: 100% !important;position: absolute; bottom:79px !important;left: 0 !important;}}
 @media (min-width:768px) {.HEADER__BACKGROUND__LAYER__3{scale: 100% !important;position: absolute; bottom:-1px !important;left: 0 !important;}}
+
+
+/* .WEB__DESIGN__CAFE__SINGLE__PLAN__BOX{ cursor: pointer; background-color: rgba(255, 255, 255, 0.205); backdrop-filter: blur(6px); border-radius: 50px; -webkit-border-radius: 50px; -moz-border-radius: 50px; -ms-border-radius: 50px; -o-border-radius: 50px; width: 80vw; height: inherit; display: flex; flex-direction:column; align-items:center; justify-content:center; padding: 1rem 0 1rem 4rem; transition: all 500ms linear !important ; -webkit-transition: all 500ms linear !important ; -moz-transition: all 500ms linear !important ; -ms-transition: all 500ms linear !important ; -o-transition: all 500ms linear !important ; } */
