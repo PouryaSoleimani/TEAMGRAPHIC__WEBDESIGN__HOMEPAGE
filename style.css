@@ -1681,3 +1681,5 @@ q:nth-child(9) {
 .article-site-tg p {font-size: 16px; padding: 0px; line-height: 33px; margin-bottom: 20px; white-space: wrap;}
 .article-main-tg .seotextOptions { line-height: 2.5rem !important ; }
 h1.site__label{ margin-top: 9rem; z-index: -10;}
+.HEADER__BACKGROUND__LAYER__3{scale: 187% !important; position: absolute; bottom:117px !important;left: 0 !important;}
+@media (min-width:640px) {#HEADER__BACKGROUND__LAYER__3{scale: 100% !important;}}
